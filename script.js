@@ -227,7 +227,6 @@ document.getElementById('reset').addEventListener('click', function() {
     s20.src = 'images/e.png';
     s21.src = 'images/e.png';
     s22.src = 'images/e.png';
-    alert("Game reset");
 });
 
 function checkWinX(row, col){
