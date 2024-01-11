@@ -1,0 +1,27 @@
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 0px;
+    margin-right: auto;
+    margin-left: auto;
+    height: 360ox;
+    width: 360px;
+    padding-top: 150px;
+    position: relative;
+}
+
+.board img {
+    width: 100%;
+    height: auto;
+}
+
+#grid {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 360px;
+    height: 360px;
+    padding-top: 150px;
+    pointer-events: none;
+}
