@@ -227,39 +227,40 @@ document.getElementById('reset').addEventListener('click', function() {
     s20.src = 'images/e.png';
     s21.src = 'images/e.png';
     s22.src = 'images/e.png';
+    document.getElementById("winner").src = 'images/ewins.png';
 });
 
 function checkWinX(row, col){
     //check vertical
     if (board[0][col] == "x" && board[1][col] == "x" && board[2][col] == "x") {
-        alert("X wins");
+        document.getElementById("winner").src = 'images/xwins.png';
     }
     //check horizontal
     else if (board[row][0] == "x" && board[row][1] == "x" && board[row][2] == "x") {
-        alert("X wins");
+        document.getElementById("winner").src = 'images/xwins.png';
     }
     //check slants
     else if (board[0][0] == "x" && board[1][1] == "x" && board[2][2] == "x") {
-        alert("X wins");
+        document.getElementById("winner").src = 'images/xwins.png';
     }
     else if (board[0][2] == "x" && board[1][1] == "x" && board[2][0] == "x") {
-        alert("X wins");
+        document.getElementById("winner").src = 'images/xwins.png';
     }
 }
 function checkWinO(row, col){
     //check vertical
     if (board[0][col] == "o" && board[1][col] == "o" && board[2][col] == "o") {
-        alert("O wins");
+        document.getElementById("winner").src = 'images/owins.png';
     }
     //check horizontal
     else if (board[row][0] == "o" && board[row][1] == "o" && board[row][2] == "o") {
-        alert("O wins");
+        document.getElementById("winner").src = 'images/owins.png';
     }
     //check slants
     else if (board[0][0] == "o" && board[1][1] == "o" && board[2][2] == "o") {
-        alert("O wins");
+        document.getElementById("winner").src = 'images/owins.png';
     }
     else if (board[0][2] == "o" && board[1][1] == "o" && board[2][0] == "o") {
-        alert("O wins");
+        document.getElementById("winner").src = 'images/owins.png';
     }
 }

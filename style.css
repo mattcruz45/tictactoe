@@ -25,3 +25,15 @@
     padding-top: 150px;
     pointer-events: none;
 }
+
+#winner{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#reset{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
