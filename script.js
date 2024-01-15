@@ -36,9 +36,6 @@ s00.addEventListener('click', function() {
             turn = "o";
         }
     }
-    else{
-        alert("Square is full");
-    }
     checkWinX(row, col);
     checkWinO(row, col);
 })
@@ -56,9 +53,6 @@ s01.addEventListener('click', function() {
             s01.src = 'images/x.png';
             turn = "o";
         }
-    }
-    else{
-        alert("Square is full");
     }
     checkWinX(row, col);
     checkWinO(row, col);
@@ -78,9 +72,6 @@ s02.addEventListener('click', function() {
             turn = "o";
         }
     }
-    else{
-        alert("Square is full");
-    }
     checkWinX(row, col);
     checkWinO(row, col);
 })
@@ -98,9 +89,6 @@ s10.addEventListener('click', function() {
             s10.src = 'images/x.png';
             turn = "o";
         }
-    }
-    else{
-        alert("Square is full");
     }
     checkWinX(row, col);
     checkWinO(row, col);
@@ -120,9 +108,6 @@ s11.addEventListener('click', function() {
             turn = "o";
         }
     }
-    else{
-        alert("Square is full");
-    }
     checkWinX(row, col);
     checkWinO(row, col);
 })
@@ -140,9 +125,6 @@ s12.addEventListener('click', function() {
             s12.src = 'images/x.png';
             turn = "o";
         }
-    }
-    else{
-        alert("Square is full");
     }
     checkWinX(row, col);
     checkWinO(row, col);
@@ -162,9 +144,6 @@ s20.addEventListener('click', function() {
             turn = "o";
         }
     }
-    else{
-        alert("Square is full");
-    }
     checkWinX(row, col);
     checkWinO(row, col);
 })
@@ -183,9 +162,6 @@ s21.addEventListener('click', function() {
             turn = "o";
         }
     }
-    else{
-        alert("Square is full");
-    }
     checkWinX(row, col);
     checkWinO(row, col);
 })
@@ -203,9 +179,6 @@ s22.addEventListener('click', function() {
             s22.src = 'images/x.png';
             turn = "o";
         }
-    }
-    else{
-        alert("Square is full");
     }
     checkWinX(row, col);
     checkWinO(row, col);
